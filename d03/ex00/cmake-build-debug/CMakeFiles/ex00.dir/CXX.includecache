@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d03/ex00/FragTrap.cpp
+FragTrap.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d03/ex00/FragTrap.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d03/ex00/FragTrap.hpp
+iostream
+-
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d03/ex00/main.cpp
+iostream
+-
+FragTrap.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d03/ex00/FragTrap.hpp
+

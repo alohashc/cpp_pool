@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex01/Bureaucrat.cpp
+Bureaucrat.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex01/Bureaucrat.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex01/Bureaucrat.hpp
+iostream
+-
+Form.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex01/Form.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex01/Form.cpp
+Form.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex01/Form.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex01/Form.hpp
+Bureaucrat.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex01/Bureaucrat.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex01/main.cpp
+Bureaucrat.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex01/Bureaucrat.hpp
+

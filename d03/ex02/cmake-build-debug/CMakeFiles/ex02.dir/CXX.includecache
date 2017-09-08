@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d03/ex02/ClapTrap.cpp
+ClapTrap.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d03/ex02/ClapTrap.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d03/ex02/ClapTrap.hpp
+iostream
+-
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d03/ex02/FragTrap.cpp
+FragTrap.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d03/ex02/FragTrap.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d03/ex02/FragTrap.hpp
+ClapTrap.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d03/ex02/ClapTrap.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d03/ex02/ScavTrap.cpp
+ScavTrap.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d03/ex02/ScavTrap.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d03/ex02/ScavTrap.hpp
+ClapTrap.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d03/ex02/ClapTrap.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d03/ex02/main.cpp
+ClapTrap.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d03/ex02/ClapTrap.hpp
+FragTrap.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d03/ex02/FragTrap.hpp
+ScavTrap.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d03/ex02/ScavTrap.hpp
+

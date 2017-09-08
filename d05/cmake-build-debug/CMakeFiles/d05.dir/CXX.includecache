@@ -1,0 +1,134 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/classsss/car.cpp
+car.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/classsss/car.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/classsss/car.hpp
+iostream
+-
+transoort.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/classsss/transoort.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/classsss/main.cpp
+iostream
+-
+transoort.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/classsss/transoort.hpp
+car.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/classsss/car.hpp
+vector
+-
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/classsss/transoort.cpp
+transoort.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/classsss/transoort.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/classsss/transoort.hpp
+iostream
+-
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex00/Bureaucrat.cpp
+Bureaucrat.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex00/Bureaucrat.hpp
+Bureaucrat.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex00/Bureaucrat.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex00/Bureaucrat.hpp
+iostream
+-
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex00/main.cpp
+iostream
+-
+Bureaucrat.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex00/Bureaucrat.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex01/Bureaucrat.cpp
+Bureaucrat.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex01/Bureaucrat.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex01/Bureaucrat.hpp
+iostream
+-
+Form.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex01/Form.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex01/Form.cpp
+Form.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex01/Form.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex01/Form.hpp
+Bureaucrat.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex01/Bureaucrat.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex01/main.cpp
+Bureaucrat.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex01/Bureaucrat.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/Bureaucrat.cpp
+Bureaucrat.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/Bureaucrat.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/Bureaucrat.hpp
+iostream
+-
+Form.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/Form.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/Form.cpp
+Form.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/Form.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/Form.hpp
+Bureaucrat.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/Bureaucrat.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/PresidentialPardonForm.cpp
+PresidentialPardonForm.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/PresidentialPardonForm.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/PresidentialPardonForm.hpp
+Form.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/Form.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/RobotomyRequestForm.cpp
+RobotomyRequestForm.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/RobotomyRequestForm.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/RobotomyRequestForm.hpp
+Form.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/Form.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/ShrubberyCreationForm.cpp
+ShrubberyCreationForm.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/ShrubberyCreationForm.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/ShrubberyCreationForm.hpp
+Form.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/Form.hpp
+fstream
+-
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/main.cpp
+iostream
+-
+Bureaucrat.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/Bureaucrat.hpp
+ShrubberyCreationForm.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/ShrubberyCreationForm.hpp
+RobotomyRequestForm.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/RobotomyRequestForm.hpp
+PresidentialPardonForm.hpp
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/ex02/PresidentialPardonForm.hpp
+
+/nfs/2016/a/alohashc/projects/unit/C++ pool/d05/test/main.cpp
+iostream
+-
+
