@@ -1,6 +1,14 @@
-//
-// Created by Andrii Lohashchuk on 7/31/17.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Fixed.cpp                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: alohashc <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/11/01 17:51:00 by alohashc          #+#    #+#             */
+/*   Updated: 2017/11/02 19:09:52 by alohashc         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "Fixed.hpp"
 
@@ -22,12 +30,10 @@ Fixed::Fixed(float const n) :_n(roundf(n * (1 << this->_bits))){
 Fixed::Fixed(Fixed const & src) {
     std::cout << "Copy constructor called" << std::endl;
     *this = src;
-    return;
 }
 
 Fixed::~Fixed() {
     std::cout << "Destructor called" << std::endl;
-    return;
 }
 
 Fixed& Fixed::operator=(Fixed const &rhs) {
@@ -45,11 +51,11 @@ void Fixed::setRawBits(int const raw) {
 }
 
 float Fixed::toFloat() const {
-    return this->_n / (float)(1 << this->_bits);
+   return this->_n / (float)(1 << this->_bits);
 }
 
 int Fixed::toInt() const {
-    return this->_n / (1 << this->_bits);
+    return (this->_n  >> this->_bits);
 }
 
 std::ostream & operator<<(std::ostream & o, Fixed const & rhs)

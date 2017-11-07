@@ -14,7 +14,6 @@ FragTrap::FragTrap(){
     this->_rangedAttackDamage = 20;
     this->_armorDamageReduction = 5;
 	std::cout << "FragTrap create" << std::endl;
-    return;
 }
 
 FragTrap::FragTrap(std::string name){
@@ -28,18 +27,15 @@ FragTrap::FragTrap(std::string name){
     this->_armorDamageReduction = 5;
 	this->_name = name;
     std::cout << "FragTrap create" << std::endl;
-    return;
 }
 
 FragTrap::FragTrap(FragTrap const & src){
     *this = src;
 	std::cout << "FragTrap create" << std::endl;
-    return;
 }
 
 FragTrap::~FragTrap() {
     std::cout << "FragTrap destroy" << std::endl;
-    return;
 }
 
 // STANDART ATTACKS

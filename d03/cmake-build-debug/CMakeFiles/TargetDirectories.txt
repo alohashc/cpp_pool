@@ -1,3 +1,0 @@
-/nfs/2016/a/alohashc/projects/unit/C++ pool/d03/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/nfs/2016/a/alohashc/projects/unit/C++ pool/d03/cmake-build-debug/CMakeFiles/edit_cache.dir
-/nfs/2016/a/alohashc/projects/unit/C++ pool/d03/cmake-build-debug/CMakeFiles/d03.dir

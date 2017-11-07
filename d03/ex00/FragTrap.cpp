@@ -14,7 +14,7 @@ FragTrap::FragTrap():_name("FragTrap") {
     this->_armorDamageReduction = 5;
 }
 
-FragTrap::FragTrap(std::string name) : FragTrap(){
+FragTrap::FragTrap(std::string name){
 	this->_name = name;
     std::cout << "Constructor called" << std::endl;
 }

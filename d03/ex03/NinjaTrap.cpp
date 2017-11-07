@@ -14,7 +14,6 @@ NinjaTrap::NinjaTrap() {
 	this->_rangedAttackDamage = 5;
 	this->_armorDamageReduction = 0;
 	std::cout << "NinjaTrap create" << std::endl;
-	return;
 }
 
 NinjaTrap::NinjaTrap(std::string name) {
@@ -28,18 +27,15 @@ NinjaTrap::NinjaTrap(std::string name) {
 	this->_armorDamageReduction = 0;
 	this->_name = name;
 	std::cout << "NinjaTrap create" << std::endl;
-	return;
 }
 
 NinjaTrap::NinjaTrap(NinjaTrap const &src) {
 	*this = src;
 	std::cout << "NinjaTrap create" << std::endl;
-	return;
 }
 
 NinjaTrap::~NinjaTrap() {
 	std::cout << "NinjaTrap create" << std::endl;
-	return;
 }
 
 // STANDARD ATTACKS

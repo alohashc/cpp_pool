@@ -97,34 +97,34 @@ void ScavTrap::beRepaired(unsigned int amount){
 // RANDOM CHALLENGE
 
 void ScavTrap::challengeNewcomer(std::string const &target) {
-    void (ScavTrap::*arrChallenge[5])(std::string const & target) = {
+    void (ScavTrap::*arrChallenge[5])(std::string const &) = {
             &ScavTrap::_randomChallenge1,
             &ScavTrap::_randomChallenge2,
             &ScavTrap::_randomChallenge3,
             &ScavTrap::_randomChallenge4,
             &ScavTrap::_randomChallenge5
     };
-    
+    srand(clock());
     int index = rand() % 5;
     (this->*arrChallenge[index])(target);
 }
 
 void ScavTrap::_randomChallenge1(std::string const &target) {
-    std::cout << "Random Challenge 1" << std::endl;
+    std::cout << "Random Challenge 1 on" << target << std::endl;
 }
 
 void ScavTrap::_randomChallenge2(std::string const &target) {
-    std::cout << "Random Challenge 2" << std::endl;
+    std::cout << "Random Challenge 2 on" << target << std::endl;
 }
 
 void ScavTrap::_randomChallenge3(std::string const &target) {
-    std::cout << "Random Challenge 3" << std::endl;
+    std::cout << "Random Challenge 3 on" << target << std::endl;
 }
 
 void ScavTrap::_randomChallenge4(std::string const &target) {
-    std::cout << "Random Challenge 4" << std::endl;
+    std::cout << "Random Challenge 4 on" << target << std::endl;
 }
 
 void ScavTrap::_randomChallenge5(std::string const &target) {
-    std::cout << "Random Challenge 5" << std::endl;
+    std::cout << "Random Challenge 5 on" << target <<std::endl;
 }

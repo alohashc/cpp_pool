@@ -5,16 +5,21 @@
 #                                                     +:+ +:+         +:+      #
 #    By: alohashc <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2017/10/31 19:19:18 by alohashc          #+#    #+#              #
-#    Updated: 2017/11/01 18:24:06 by alohashc         ###   ########.fr        #
+#    Created: 2017/10/30 12:02:36 by alohashc          #+#    #+#              #
+#    Updated: 2017/10/30 12:22:32 by alohashc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = replace
+NAME = phonebook
 
-SRC = main.cpp
+SRC = Phonebook.cpp\
+	  Contact.cpp\
+	  main.cpp\
 
-SRC_O = $(SRC:.cpp=.o)
+INC = Phonebook.hpp\
+	  Contact.hpp\
+
+SRC_O = $(SRC:.c=.o)
 
 FLAG = -Wall -Werror -Wextra
 
@@ -24,7 +29,7 @@ $(NAME): $(SRC_O)
 	clang++ -o $(NAME) $(SRC_O)
 
 %$(OBJ): %.c
-	@clang++ $(FLAG) -c $<
+	@clang++ $(FLAG) -I $(INC)-c $<
 
 clean:
 	rm -f $(SRC_O)

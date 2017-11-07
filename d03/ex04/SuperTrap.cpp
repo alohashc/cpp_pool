@@ -14,7 +14,6 @@ SuperTrap::SuperTrap() {
 	this->_rangedAttackDamage = 20;
 	this->_armorDamageReduction = 5;
 	std::cout << "SuperTrap create" << std::endl;
-	return;
 }
 
 SuperTrap::SuperTrap(std::string name) {
@@ -28,18 +27,15 @@ SuperTrap::SuperTrap(std::string name) {
 	this->_rangedAttackDamage = 20;
 	this->_armorDamageReduction = 5;
 	std::cout << "SuperTrap create" << std::endl;
-	return;
 }
 
 SuperTrap::SuperTrap(SuperTrap const &src) {
 	*this = src;
 	std::cout << "SuperTrap create" << std::endl;
-	return;
 }
 
 SuperTrap::~SuperTrap() {
 	std::cout << "SuperTrap destroy" << std::endl;
-	return;
 }
 
 void SuperTrap::meleeAttack(std::string const &target) {

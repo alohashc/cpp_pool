@@ -6,7 +6,7 @@
 /*   By: alohashc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/10/31 18:54:06 by alohashc          #+#    #+#             */
-/*   Updated: 2017/10/31 18:58:38 by alohashc         ###   ########.fr       */
+/*   Updated: 2017/11/01 11:07:41 by alohashc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 class HumanA{
 private:
     std::string _name;
-    Weapon *_weapon;
+    Weapon &_weapon;
 
 public:
     HumanA(std::string name, Weapon &weapon);

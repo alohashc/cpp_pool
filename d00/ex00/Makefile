@@ -5,16 +5,16 @@
 #                                                     +:+ +:+         +:+      #
 #    By: alohashc <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2017/10/31 19:19:18 by alohashc          #+#    #+#              #
-#    Updated: 2017/11/01 18:24:06 by alohashc         ###   ########.fr        #
+#    Created: 2017/10/30 12:02:36 by alohashc          #+#    #+#              #
+#    Updated: 2017/10/30 12:02:45 by alohashc         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = replace
+NAME = megaphone
 
-SRC = main.cpp
+SRC = megaphone.cpp
 
-SRC_O = $(SRC:.cpp=.o)
+SRC_O = $(SRC:.c=.o)
 
 FLAG = -Wall -Werror -Wextra
 

@@ -6,17 +6,14 @@
 
 ClapTrap::ClapTrap() {
 	std::cout << "ClapTrap create" << std::endl;
-	return;
 }
 
 ClapTrap::~ClapTrap() {
 	std::cout << "ClapTrap destroy" << std::endl;
-	return;
 }
 
 ClapTrap::ClapTrap(ClapTrap const & src) {
 	*this = src;
-	return;
 }
 
 // DAMAGE AND REPAIRED
